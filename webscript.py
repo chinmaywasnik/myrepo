@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 #====================================== IMPLEMENTATION 1 START ===========================================
 
 # st.write("Test app")
@@ -12,7 +13,7 @@ import pandas as pd
 
 #====================================== IMPLEMENTATION 2 START ===========================================
 
-st.title("Test app")
+st.title("Test app - Training Template")
 st.write("Text in the image can be hyperlinked with media")
 col1, col2, col3 = st.columns(3)
 with col1:
