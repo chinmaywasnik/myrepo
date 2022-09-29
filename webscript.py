@@ -43,7 +43,8 @@ with secondCol1:
     #video_file = open('https://pixabay.com/en/videos/star-long-exposure-starry-sky-sky-6962/', 'rb')
     #video_bytes = video_file.read()
     st.markdown("**xyz instructions**")
-    st.video('https://pixabay.com/en/videos/star-long-exposure-starry-sky-sky-6962/')
+    #st.video('https://pixabay.com/en/videos/star-long-exposure-starry-sky-sky-6962/')
+    st.video('tempvid.mp4)
 
 with secondCol2:
     st.table(tableData)
