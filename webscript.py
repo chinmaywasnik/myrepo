@@ -12,7 +12,7 @@ import numpy as np
 #--------------------------------------------------------------------------------------------------------------------------------------
 
 #====================================== IMPLEMENTATION 2 START ===========================================
-
+st.set_page_config(layout="wide")
 st.title("Test app - Training Template")
 st.write("Text in the image can be hyperlinked with media")
 col1, col2, col3 = st.columns(3)
